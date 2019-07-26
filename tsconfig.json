@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es5", // Versione di JS target di transpilazione
+    // "module": "amd", //Posso usare AMD UMD o ESNEXT
+    "module": "commonjs", //Posso usare AMD UMD o ESNEXT
+    // "strict": true,
+    "outDir": "dist",
+    // "strictNullChecks": true
+    /* Experimental Options */
+    // "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
+    // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "typings"
+  ]
+}

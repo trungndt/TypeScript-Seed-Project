@@ -1,0 +1,48 @@
+{
+  "name": "typescript-webpack-seed",
+  "version": "0.0.1",
+  "description": "A Starter Seed for TypeScript and Webpack Project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development",
+    "tslint": "tslint -c tslint.json 'src/**/*.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordKenzo/TypeScript-Webpack-Seed.git"
+  },
+  "keywords": [
+    "typescript",
+    "webpack",
+    "seed",
+    "starterkit"
+  ],
+  "author": "Lorenzo Franceschini <lordkenzo@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LordKenzo/TypeScript-Webpack-Seed/issues"
+  },
+  "homepage": "https://github.com/LordKenzo/TypeScript-Webpack-Seed#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.0.0",
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1",
+    "tslint": "^5.17.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.29",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "select2": "^4.0.7"
+  }
+}

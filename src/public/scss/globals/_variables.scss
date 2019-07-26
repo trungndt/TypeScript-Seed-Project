@@ -1,0 +1,52 @@
+/* COLORS */
+$green: #00b052;
+$light-green: #92d4a8;
+$cyan: #2298b5;
+$blue: #0c5fb2;
+$red: #f44336;
+$light-gray: #f2f2f2;
+$gray: #999;
+
+$color-success: $green;
+$color-success-fade: $light-green;
+$color-primary: $blue;
+$color-secondary: $gray;
+$color-smoke: $light-gray;
+$color-info: $cyan;
+$color-info-faded: rgba($color-info, 0.1);
+$color-danger: $red;
+
+$padding: 1.1rem;
+$aside-width: 20rem;
+
+// $baseUrl: '../images/icons/';
+// $dbAngleLeft: 'icon-dbangle-left.png';
+// $dbAngleLeftWhite: 'icon-dbangle-left-white.png';
+// $dbAngleRight: 'icon-dbangle-right.png';
+// $dbAngleRightWhite: 'icon-dbangle-right-white.png';
+
+// $angleLeft: 'icon-angle-left.png';
+// $angleLeftWhite: 'icon-angle-left-white.png';
+// $angleRight: 'icon-angle-right.png';
+// $angleRightWhite: 'icon-angle-right-white.png';
+// $angleDown: 'icon-angle-down.png';
+
+// $check: 'icon-check.png';
+// $checkGreen: 'icon-check-green.png';
+// $fail: 'icon-fail.png';
+
+$baseUrl: 'bcv_icon_';
+$dbAngleLeft: 'dbangle_left';
+$dbAngleLeftWhite: 'dbangle_left_white';
+$dbAngleRight: 'dbangle_right';
+$dbAngleRightWhite: 'dbangle_right_white';
+
+$angleLeft: 'angle_left';
+$angleLeftWhite: 'angle_left_white';
+$angleRight: 'angle_right';
+$angleRightWhite: 'angle_right_white';
+$angleDown: 'angle_down';
+
+$check: 'check';
+$checkGreen: 'check_green';
+$fail: 'fail';
