@@ -11,14 +11,7 @@ The main purpose of this repository is to show a good end-to-end project setup a
 	- [Getting TypeScript](#getting-typescript)
 	- [Project Structure](#project-structure)
 	- [Building the project](#building-the-project)
-	- [Type Definition (`.d.ts`) Files](#type-definition-dts-files)
-	- [Debugging](#debugging)
-	- [Testing](#testing)
-	- [ESLint](#eslint)
 - [Dependencies](#dependencies)
-	- [`dependencies`](#dependencies-1)
-	- [`devDependencies`](#devdependencies)
-- [Hackathon Starter Project](#hackathon-starter-project)
 
 # Pre-reqs
 To build and run this app locally you will need a few things:
@@ -86,3 +79,55 @@ The full folder structure of this app is explained below:
 | package.json             | File that contains npm dependencies as well as [build scripts](#what-if-a-library-isnt-on-definitelytyped)                          |
 | tsconfig.json            | Config settings for compiling server code written in TypeScript                               |
 | webpack.config.js        | Config settings for running Webpack                                             |
+
+
+## Building the project
+If you open `package.json`, you will see a `scripts` section with all the different scripts you can call.
+To call a script, simply run `npm run <script-name>` from the command line.
+You'll notice that npm scripts can call each other which makes it easy to compose complex builds out of simple individual build scripts.
+Below is a list of all the scripts this template has available:
+
+
+| Script Name | Description |
+| ------------------------- | ------------------------------------------------------------------------------------------------- |
+| `start`                   | Run project in localhost mode, includes watch tasks                                               |
+| `build`                   | Compiles all `.ts` files to `.js` files, all `.scss` files to `.css` files in the `dist` folder   |
+
+
+# Dependencies
+Dependencies are managed through `package.json`.
+In that file you'll find two sections:
+
+## `devDependencies`
+
+| Package                         | Description                                                                       | Required |
+| ------------------------------- | --------------------------------------------------------------------------------- | -------- |
+| awesome-typescript-loader       | Utility library that provides asynchronous control flow.                          | Yes      |
+| css-loader                      | The css-loader interprets @import and url() and will resolve them                 | Yes      |
+| mini-css-extract-plugin         | This plugin extracts CSS into separate files                                      | Yes      |
+| style-loader                    | Adds CSS to the DOM by injecting a `<style>` tag                                  | Yes      |
+| eslint                          | Linter for JavaScript and TypeScript files                                        | Yes      |
+| tslint-eslint-rules             | Combine both TypeScript rule and ESLint rule by using this TSLint plugin          | Yes      |
+| typescript                      | JavaScript compiler/type checker that boosts JavaScript productivity              | Yes      |
+| webpack                         | Bundler for JavaScript files for usage in a browser                               | Yes      |
+| webpack-cli                     | Commands to increase speed when setting up a webpack project                      | Yes      |
+| webpack-dev-server              | Use webpack with a development server that provides live reloading                | Yes      |
+
+
+
+## `dependencies`
+
+| Package                         | Description                                                            | Required |
+| ------------------------------- | ---------------------------------------------------------------------- | -------- |
+| @types/jquery                   | Type definitions for jquery                                            | Yes      |
+| bootstrap                       | Bootstrap plugin                                                       |          |
+| jquery                          | jQuery plugin                                                          | Yes      |
+| node-sass                       | Allows to compile .scss files to .css                                  | Yes      |
+| sass-loader                     | Loads a Sass/SCSS file and compiles it to CSS                          | Yes      |
+| select2                         | select2 plugin                                                         |          |
+
+To install or update these dependencies you can use `npm install` or `npm update`.
+
+## License
+Copyright (c) Microsoft Corporation. All rights reserved.
+Licensed under the [MIT](LICENSE.txt) License.
